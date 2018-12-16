@@ -1,0 +1,64 @@
+{
+    "app": {
+        "name": "OPDS-Proxy"
+    },
+    "menu": {
+        "about": "About",
+        "projects": "Projects",
+        "controller": "Scrapyd"
+    },
+    "home": {
+        "jumbotron": {
+            "header": "OPDS-Proxy",
+            "lead": "Browse, download and read free available Ebooks from allitebooks.com in OPDS-capable Ebook-Readers",
+            "text": "",
+            "button": {
+                "allitebooks": "Visit allitebooks.com",
+                "more": "Read more"
+            }
+        }
+    },
+    "about": {
+        "header": "About OPDS-Proxy",
+        "lead": "",
+        "body": "_Markdown_ allowed!",
+        "aside": "_Markdown_ allowed!"
+    },
+
+    "scrapyd": {
+        "status": {
+            "pendingJobs": "Pending Jobs",
+            "runningJobs": "Running Jobs",
+            "finishedJobs": "Finished Jobs",
+            "noPendingJobs": "Currently no pending Jobs",
+            "noRunningJobs": "Currently no running Jobs",
+            "noFinishedJobs": "Currently no finished Jobs",
+            "spider": "Spider",
+            "jobId": "Job-ID",
+            "started": "Started",
+            "finished": "Finished",
+            "pid": "PID"
+        },
+        "spidersInProject": "Available Spiders in {project}",
+        "statusbar": "Scrapyd on {host}",
+        "notice": {
+            "scheduleSpider": "Click to schedule this spider",
+            "scheduleSpiderConfirm": "You're gonna schedule the spider {spider}!\nAre you sure?",
+            "scheduled": "Spider {spider} scheduled with Job-ID {jobId}",
+            "cancelJobConfirm": "'Do you really want to cancel the Job with ID\n{jobId}",
+            "cancelled": "Job cancelled: {jobId}"
+        }
+    },
+
+    "stats": {
+        "header": "Statistics",
+        "books": "Books",
+        "authors": "Authors",
+        "categories": "Categories",
+        "links": "Downloadable Files"
+    },
+    
+    "recent": {
+        "header": "Last Updates"
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "app": {
+        "name": "OPDS-Proxy"
+    },
+    "menu": {
+        "about": "Info",
+        "projects": "Projekte",
+        "controller": "Controller"
+    },
+
+    "home": {
+        "jumbotron": {
+            "header": "OPDS-Proxy",
+            "lead": "Frei verfügbare Ebooks von allitebooks.com in OPDS-tauglichen Ebook-Readern suchen, herunterladen und lesen.",
+            "text": "",
+            "button": {
+                "allitebooks": "allitebooks.com besuchen",
+                "more": "Mehr erfahren"
+            }
+        }
+    },
+
+    "about": {
+        "header": "Über OPDS-Proxy",
+        "lead": "OPDS-Proxy ist ein Web-Scraper, der die Daten der verfügbaren Bücher auf allitebooks.com einliest und als durchsuchbaren OPDS-Katalog für Ebook-Reader bereit stellt. Die gewünschten Ebooks können dadurch direkt von allitebooks.com auf ihr Gerät geladen werden.",
+        "body": "_Markdown_ allowed!",
+        "aside": "### Features\n\n * Mehrsprachige PWA\n * Eingebauter Scrapyd-Controller\n * Vue/Django/Scrapy Stack"
+    },
+
+    "scrapyd": {
+        "status": {
+            "pendingJobs": "Ausstehende Aufgaben",
+            "runningJobs": "Laufende Aufgaben",
+            "finishedJobs": "Abgeschlossene Aufgaben",
+            "noPendingJobs": "Zur Zeit keine ausstehenden Aufgaben",
+            "noRunningJobs": "Zur Zeit keine laufenden Aufgaben",
+            "noFinishedJobs": "Zur Zeit keine abgeschlossenen Aufgaben",
+            "spider": "Spider",
+            "jobId": "Job-ID",
+            "started": "Gestarted",
+            "finished": "Abgeschlossen",
+            "pid": "PID"
+        },
+        "spidersInProject": "Verfügbare Spider in {project}",
+        "statusbar": "Scrapyd auf {host}",
+        "notice": {
+            "scheduleSpider": "Klick zum starten dieses Spiders",
+            "scheduleSpiderConfirm": "Wollen sie den Spider {spider} wirklich ausführen?",
+            "scheduled": "Spider {spider} mit der Job-ID {jobId} ausgelöst",
+            "cancelJobConfirm": "'Wollen sie die Aufgabe mit der ID\n{jobId} wirkich beenden?",
+            "cancelled": "Aufgabe beendet: {jobId}"
+        }
+    },
+
+    "stats": {
+        "header": "Statistiken",
+        "books": "Bücher",
+        "authors": "Autoren",
+        "categories": "Kategorien",
+        "links": "Herunterladbare Dateien"
+    },
+    
+    "recent": {
+        "header": "Letzte Updates"
+    },
+
+    "linker": {
+        "opds": {
+            "link": "OPDS-Link",
+            "copied": "In die Zwischenablage kopiert"
+        },
+        "button": {
+            "copy": "Kopieren"
+        }
+    },
+
+    "search": {
+        "box": {
+            "prefix": "Suchbegriff",
+            "button": "Suchen",
+            "placeholder": "Bitte einen Suchbegriff eingeben"
+        },
+        "results": {
+            "empty": "Keine Ergebnisse gefunden",
+            "noQuery": "Der Suchbegriff ist erforderlich",
+            "header": "{count} Einträge gefunden",
+            "page": "Seite {page} von {pages}"
+        }
+    }
+}
